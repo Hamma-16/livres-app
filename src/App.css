@@ -1,0 +1,148 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #293241;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  color: #e0fbfc;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #e0fbfc;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: #4a4e69;
+}
+
+.livres-title {
+  font-size: 24px;
+  color: #293241;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  background-color: #ee6c4d;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-container button:hover {
+  background-color: #f18c6c;
+}
+
+.livre-card {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f7e8;
+}
+
+.livre-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #274c29;
+}
+
+.livre-description {
+  margin-bottom: 10px;
+  color: #37474f;
+}
+
+.livre-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.livre-card:nth-child(even) {
+  background-color: #d7ccc8;
+}
+
+.livre-card:nth-child(even) .livre-title {
+  color: #6a1b9a;
+}
+
+.livre-card:nth-child(even) .livre-description {
+  color: #455a64;
+}
+
+.livre-card:nth-child(3n) {
+  background-color: #f0f4c3;
+}
+
+.livre-card:nth-child(3n) .livre-title {
+  color: #e65100;
+}
+
+.livre-card:nth-child(3n) .livre-description {
+  color: #1e88e5;
+}
+
+h2{
+  color: #007e26;
+}
+
+h1,
+h3,
+h4,
+p {
+  color: #430ee3;
+}
+
+.livre-btn {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.livre-btn-ajouter {
+  background-color: #4CAF50;
+}
+
+.livre-btn-supprimer {
+  background-color: #f44336;
+}
